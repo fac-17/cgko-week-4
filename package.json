@@ -1,0 +1,23 @@
+{
+  "name": "cgko-week-4",
+  "version": "1.0.0",
+  "description": "postcode autocompletion app",
+  "main": "index.js ",
+  "scripts": {
+    "test": "tape *.test.js|tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-17/cgko-week-4.git"
+  },
+  "author": "gigi, tony, franchie, tine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-17/cgko-week-4/issues"
+  },
+  "homepage": "https://github.com/fac-17/cgko-week-4#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}
