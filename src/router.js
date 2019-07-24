@@ -1,4 +1,4 @@
-const router = (resquest, response) => {
+const router = (request, response) => {
   const endpoint = request.url;
 
   // console.log('this is your url: ', endpoint);
