@@ -18,13 +18,13 @@ function handleHome(request, response, endpoint) {
 
 function handlePublic(request, response, endpoint) {
   const extension = endpoint.split(".")[1];
-
+  console.log("this is for the extentsion", extension);
   const extensionType = {
     css: "text/css",
     js: "text/js",
     ico: "image/x-icon"
   };
-  const filePath = path.join(__dirname, "..", endpoint);
+  const filePath = path.join(__dirname, "..", "public", endpoint);
   fs.readFile(filePath, (error, file) => {
     if (error) {
       console.log(error);

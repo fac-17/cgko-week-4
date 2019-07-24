@@ -2,9 +2,11 @@ const { handleHome, handlePublic } = require("../src/handler");
 
 const router = (request, response) => {
   const endpoint = request.url;
+  console.log("This is", endpoint);
+
   if (endpoint === "/") {
     handleHome(request, response, endpoint);
-  } else if (endpoint.indexOf("public") !== -1) {
+  } else if (endpoint !== "/") {
     handlePublic(request, response, endpoint);
   } else {
     response.writeHead(404);
