@@ -17,7 +17,7 @@ Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and 
 
 
 ## The Project 
-![](https://i.imgur.com/ZcZZ3AL.jpg =300x400)![](https://i.imgur.com/pcK7QkY.jpg =300x400)
+<img src="https://i.imgur.com/ZcZZ3AL.jpg" width="400" height="600"> <img src="https://i.imgur.com/pcK7QkY.jpg" width="400" height="600">
 
 
 ### Features & APIs 
@@ -45,14 +45,13 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 - [ ] Access object from server side and populate dom dropdown 
     - [ ] Event listener on key_press and re query the object
     - [ ] Use query string to to concatante to longer query string and parse in order to return updated object data
-    - [ ] 
 - [ ] Create pure functions + tests
 - [ ] Create dom functions 
 - [ ] CSS Styling
 - [ ] Put in favicon
 - [ ] Ensure file structure is good and maintainable (continues to work)
-- [ ] Keep an eye on Heroku deployment 
-- [ ] Keep Readme updated
+- [x] Keep an eye on Heroku deployment 
+- [x] Keep Readme updated
 
 
 
