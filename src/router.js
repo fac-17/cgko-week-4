@@ -6,7 +6,7 @@ const router = (request, response) => {
 
   if (endpoint === "/") {
     handleHome(request, response, endpoint);
-  } else if (endpoint !== "/") {
+  } else if (endpoint.indexOf("public") !== -1) {
     handlePublic(request, response, endpoint);
   } else {
     response.writeHead(404);
