@@ -1,14 +1,15 @@
 {
-  "results": [
-    "N10 1AA",
-    "N10 1AB",
-    "N10 1AD",
-    "N10 1AE",
-    "N10 1AF",
-    "N10 1AG",
-    "N10 1AH",
-    "N10 1AJ",
-    "N10 1AL",
-    "N10 1AN"
+  "status": 200,
+  "result": [
+      "N22 5AA",
+      "N22 5AB",
+      "N22 5AD",
+      "N22 5AE",
+      "N22 5AF",
+      "N22 5AG",
+      "N22 5AH",
+      "N22 5AJ",
+      "N22 5AN",
+      "N22 5AP"
   ]
 }
