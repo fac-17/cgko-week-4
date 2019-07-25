@@ -44,14 +44,14 @@ function handleQuery(request, response, endpoint) {
   const filePath = path.join(__dirname, "..", "/postcodes.json");
 
   fs.readFile(filePath, (error, file) => {
-    if(error) {
+    if (error) {
       console.log(error);
     } else {
-      response.writeHead(200, {"content-type": "application/json"});
+      response.writeHead(200, { "content-type": "application/json" });
       // console.log(file);
       response.end(file);
     }
-  })
+  });
 }
 
 module.exports = { handleHome, handlePublic, handleQuery };
