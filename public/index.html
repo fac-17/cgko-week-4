@@ -16,17 +16,18 @@
   </header>
 
   <body>
-    <form action="/create-input" method="POST"
-    autocomplete="off">
-        <label for="myInput"> </label>
-        <input
-          class="input-field"
-          id="myInput"
-          type="text"
-          name="myPostcode"
-          placeholder="Enter your postcode"
-          required
-        />
+    <form action="/create-input" method="POST" autocomplete="off">
+      <label for="myInput"> </label>
+      <input list="myInput" name="myPostcode" />
+      <datalist
+        class="input-field"
+        id="myInput"
+        name="myPostcode"
+        placeholder="Enter your postcode"
+        required
+      >
+      </datalist>
+
       <input type="submit" />
     </form>
 
