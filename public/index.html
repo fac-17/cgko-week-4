@@ -6,17 +6,18 @@
     <meta name="description" content="autocomplete app CGKP" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="placeholdericon" href="icon.png" />
+    <link rel="placeholdericon" href="public/icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="public/style.css" />
   </head>
   <header>
     <h1>Postcode Autocomplete</h1>
   </header>
 
   <body>
-    <form autocomplete="off" action="/action_page.php">
+    <form action="/create-input" method="POST"
+    autocomplete="off">
       <div class="autocomplete" style="width:300px;">
         <label for="myInput"> </label>
         <input
@@ -31,6 +32,6 @@
       <input type="submit" />
     </form>
 
-    <script src="index.js"></script>
+    <script src="public/index.js"></script>
   </body>
 </html>
