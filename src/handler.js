@@ -39,7 +39,7 @@ function handlePublic(request, response, endpoint) {
 
 function handleQuery(request, response, endpoint) {
   let query = path.basename(endpoint);
-  console.log("backend query hoooray ", query);
+  // console.log("backend query hoooray ", query);
 
   const filePath = path.join(__dirname, "..", "/postcodes.json");
 
@@ -48,7 +48,7 @@ function handleQuery(request, response, endpoint) {
       console.log(error);
     } else {
       response.writeHead(200, {"content-type": "application/json"});
-      console.log(file);
+      // console.log(file);
       response.end(file);
     }
   })
