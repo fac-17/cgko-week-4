@@ -10,6 +10,9 @@
 
 Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and CSS.
 
+## How to use?
+**Works with dummy postcode autocomplete starting N22 etc.**
+
 ## Group Mantra
 1. Our focus this week is on everyone learning the most rather than having the most fabulous project
 2. Pair programming - esure everyone pairs up with everyone at least once
