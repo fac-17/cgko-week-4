@@ -12,7 +12,6 @@ Your app can be found at https://postcode-autocomplete.herokuapp.com/
 ## Aim :dart:
 
 Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and CSS.
-![autocomplete gif](https://media.giphy.com/media/3o7521WVJ7V4IGwIUw/giphy.gif)
 
 ## Group Mantra
 1. Our focus this week is on everyone learning the most rather than having the most fabulous project
