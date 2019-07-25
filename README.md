@@ -1,7 +1,4 @@
-# cgko-week-4
-Your app can be found at https://postcode-autocomplete.herokuapp.com/
-
-# Postcode Autocomplete :checkered_flag:
+# Postcode Autocomplete [link](https://postcode-autocomplete.herokuapp.com/) :checkered_flag:
 
 ## Team   
 [Tony](github.com/tonylomax):yum:  
