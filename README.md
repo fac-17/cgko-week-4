@@ -12,7 +12,7 @@ Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and 
 
 ## Group Mantra
 1. Our focus this week is on everyone learning the most rather than having the most fabulous project
-2. Pair programming - esure everyone pairs up with everyone at least once
+2. Pair programming - ensure everyone pairs up with everyone at least once
 3. Use 20/20/20 - if a pair has not found an answer after 20 min we can open the problem up to the team and do a mob
 
 
@@ -89,8 +89,9 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 
 - Making an API call from the backend is hard!
 
-- Maximal confusion on how back and front-end communicate 
+- Maximal confusion on how back and front-end communicate
 
+![](https://i.imgur.com/wkOs9Zl.jpg)
 
 
 
