@@ -10,9 +10,6 @@
 
 Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and CSS.
 
-## How to use?
-**Works with dummy postcode autocomplete starting N22 etc.**
-
 ## Group Mantra
 1. Our focus this week is on everyone learning the most rather than having the most fabulous project
 2. Pair programming - esure everyone pairs up with everyone at least once
@@ -25,13 +22,15 @@ Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and 
 
 ### Features & APIs 
 
-[postcode API](https://postcodes.io/)
+1. We use an autocomplete API [link](https://postcodes.io/)
 
-Autocomplete dropdown:
+2. Autocomplete dropdown:
 https://www.w3schools.com/howto/howto_js_autocomplete.asp
 
-Lsiten to input value change: 
+3. Lsiten to input value change: 
 https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change
+
+4. Initially we set up a dummy JSON file and made an API call from the client side to our own backend dummy data. This was successful, however we were unable to make an API call from our server to the Postcodes API, hence we just enhanced our app by making the API call from client side to the Postcodes API.
 
 
 
@@ -44,15 +43,15 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 - [x] Agree on file structure for server side code
 
 #### Day 2
-- [ ] Decide on new task list + distribute to pairs
-- [ ] Access object from server side and populate dom dropdown 
-    - [ ] Event listener on key_press and re query the object
-    - [ ] Use query string to to concatante to longer query string and parse in order to return updated object data
-- [ ] Create pure functions + tests
-- [ ] Create dom functions 
-- [ ] CSS Styling
+- [x] Decide on new task list + distribute to pairs
+- [x] Access object from server side and populate dom dropdown 
+    - [x] Event listener on key_press and re query the object
+    - [ ] Use query string to to concatante to longer query string and parse in order to return updated object data (irrelevant as inconsistent with app architecture)
+- [ ] Create pure functions + tests (irrelevant as inconsistent with app architecture)
+- [x] Create dom functions 
+- [x] CSS Styling
 - [ ] Put in favicon
-- [ ] Ensure file structure is good and maintainable (continues to work)
+- [x] Ensure file structure is good and maintainable (continues to work)
 - [x] Keep an eye on Heroku deployment 
 - [x] Keep Readme updated
 
@@ -64,16 +63,6 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 * A large data file is required to search through - consider the best data structure for this (e.g. .txt or .json).
 * Consider how implementation affects user experience and web performance (e.g. time to load and search through the data file).
 
-### Testing and deployment
-* We expect back-end testing using tape (test as many components as you can) and basic front-end testing. Please note that we expect tests on pure functions and not on the router or the DOM.
-
-* Host your project on heroku, see resource.
-
-* Use module.exports and require to break a single large server file into smaller modules.
-
-* Consider what would be a good server file structure based on what we have discussed over the week.
-
 ### Strech Goals
-* using bodyparse / html autocomplete
-* API call to postcodes.io
+- [x] API call to postcodes.io
 
