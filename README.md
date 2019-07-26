@@ -71,18 +71,18 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 - There is a HTML5 <datalist> tag that is used to provide an "autocomplete" feature on <input> elements. Users will see a drop-down list of pre-defined options as they input data. (carefull! - cant be styled)
 https://www.w3schools.com/tags/tag_datalist.asp
 
-- We now understand the connection between srever, router and handler functions
+- We now understand the connection between server, router and handler functions
 
 - How the backend and frontend communicate 
 
-- That API calls are best placed on the backend, which 
+- That API calls are best placed on the backend, which allows the client to continue interacting with the browser while the API makes its call
 
 - How to deploy to Heroku! 
 
-- How usefull mobs are with unfamiliar topics 
-
-- Lsiten to input value change: 
+- Listen to input value change: 
 https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change
+
+- How usefull mobs are with unfamiliar topics 
 
 
 ### Challenges 
