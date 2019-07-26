@@ -1,4 +1,4 @@
-const { handleHome, handlePublic, handleQuery } = require("../src/handler");
+const { handleHome, handlePublic } = require("../src/handler");
 
 const router = (request, response) => {
   const endpoint = request.url;
@@ -8,22 +8,15 @@ const router = (request, response) => {
     handleHome(request, response, endpoint);
   } else if (endpoint.indexOf("public") !== -1) {
     handlePublic(request, response, endpoint);
-  } else if (endpoint !== "/") {
-    handleQuery (request, response, endpoint);
-  }else {
+  } else {
     response.writeHead(404);
-    response.end("404 - PAGE NOT FOUND");
+    response.end(
+      `<h1 style="text-align:center"> 
+      404: Sorry, this page doesn't exist. 
+      </h1> <img style="display:block; margin: 0 auto;" 
+      src="https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif">`
+    );
   }
 };
-
-// response.statusCode = 200;
-// response.setHeader("Content-Type", "text/html");
-// response.end("<h1>Hello World</h1>");
-
-//call handler(request, response, endpoint)
-
-// if (endpoint === '/') {
-
-// } else if (endpoint)
 
 module.exports = router;
