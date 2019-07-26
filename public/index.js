@@ -1,11 +1,10 @@
 let input = document.getElementById("myInput");
-// let datalist = document.getElementById('myDatalist');
 input.addEventListener("input", call);
 
 function call() {
   let empty = document.getElementById("myDatalist");
   empty.innerHTML = "";
-  let queryString=encodeURIComponent(input.value);
+  let queryString = encodeURIComponent(input.value);
 
   let url = `https://postcodes.io/postcodes/${queryString}/autocomplete`;
   let xhr = new XMLHttpRequest();
