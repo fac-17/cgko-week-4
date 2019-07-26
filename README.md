@@ -1,4 +1,4 @@
-# Postcode Autocomplete [link](https://postcode-autocomplete.herokuapp.com/) :checkered_flag:
+# [Postcode Autocomplete](https://postcode-autocomplete.herokuapp.com/) :checkered_flag:
 
 ## Team   
 [Tony](github.com/tonylomax):yum:  
@@ -65,4 +65,33 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 
 ### Strech Goals
 - [x] API call to postcodes.io
+
+### What we have learned
+
+- there is a HTML5 <datalist> tag that is used to provide an "autocomplete" feature on <input> elements. Users will see a drop-down list of pre-defined options as they input data. (carefull! - cant be styled)
+https://www.w3schools.com/tags/tag_datalist.asp
+
+- We now understand the connection between srever, router and handler functions
+
+- How the backend and frontend communicate 
+
+- That API calls are best placed on the backend, which 
+
+- How to deploy to Heroku! 
+
+- How usefull mobs are with unfamiliar topics 
+
+- Lsiten to input value change: 
+https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change
+
+
+### Challenges 
+
+- Making an API call from the backend is hard!
+
+- Maximal confusion on how back and front-end communicate 
+
+
+
+
 
