@@ -30,3 +30,7 @@ input[list] {
 .input-field {
   width: 100%;
 }
+
+.hide-postcode {
+  display: none;
+}
