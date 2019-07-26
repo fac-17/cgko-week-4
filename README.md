@@ -27,7 +27,7 @@ Our aim was to build a simple postcode autocomplete app using Node.JS, HTML and 
 2. Autocomplete dropdown:
 https://www.w3schools.com/howto/howto_js_autocomplete.asp
 
-3. Lsiten to input value change: 
+3. Listen to input value change: 
 https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change
 
 4. Initially we set up a dummy JSON file and made an API call from the client side to our own backend dummy data. This was successful, however we were unable to make an API call from our server to the Postcodes API, hence we just enhanced our app by making the API call from client side to the Postcodes API.
