@@ -50,7 +50,7 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 - [ ] Create pure functions + tests (irrelevant as inconsistent with app architecture)
 - [x] Create dom functions 
 - [x] CSS Styling
-- [ ] Put in favicon
+- [x] Put in favicon
 - [x] Ensure file structure is good and maintainable (continues to work)
 - [x] Keep an eye on Heroku deployment 
 - [x] Keep Readme updated
@@ -58,7 +58,7 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 
 
 ### Requirements
-* website that enables users to quickly find and select words from a list of suggestions, as they type.
+* Website that enables users to quickly find and select words from a list of suggestions, as they type.
 * The list is dynamically generated from a pre-populated list of values (i.e. a dictionary file), leveraging searching and filtering.
 * A large data file is required to search through - consider the best data structure for this (e.g. .txt or .json).
 * Consider how implementation affects user experience and web performance (e.g. time to load and search through the data file).
@@ -68,7 +68,7 @@ https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-val
 
 ### What we have learned
 
-- there is a HTML5 <datalist> tag that is used to provide an "autocomplete" feature on <input> elements. Users will see a drop-down list of pre-defined options as they input data. (carefull! - cant be styled)
+- There is a HTML5 <datalist> tag that is used to provide an "autocomplete" feature on <input> elements. Users will see a drop-down list of pre-defined options as they input data. (carefull! - cant be styled)
 https://www.w3schools.com/tags/tag_datalist.asp
 
 - We now understand the connection between srever, router and handler functions
